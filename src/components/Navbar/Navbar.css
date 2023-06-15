@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+}
+
+
+.Navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.Menu{
+    display: flex;
+    width: 25%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    
+
+}
+.Carrito{
+    display: flex;
+
+}
+p{
+    font-size: 20px;
+}
